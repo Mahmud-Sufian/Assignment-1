@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Anek+Telugu&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Anek Telugu', sans-serif; 
+}
+.leftSide{
+    display: flex;
+    background: #46150D;
+    
+}
+.single{
+    width: 50%;
+} 
+.mission{
+    padding: 10%;
+}
+.mission h1{
+    color: #ffff;
+    font-size: 3em;
+}
+.mission p{
+    color: white;
+    margin: 2em 0px;
+}
+.highlight{
+    color: rgb(231, 168, 126);
+}
+.border{
+    border-left: 3px solid rgb(255, 125, 73);
+    border-radius: 3px;
+    padding-left: 0.5em;
+}
+.personImage img{
+    width: 100%; 
+    height: 84%;
+    margin-top: 5%;
+    padding: 10%;
+}
+a{
+    text-decoration: none;
+    color: white;
+    border: 2px solid rgb(250, 195, 159);
+    border-radius: 5px;
+    /* background: rgb(158, 88, 88); */
+    background-image: linear-gradient(salmon, rgb(241, 166, 95));
+    padding: 0.5em; 
+}
+.middleText{
+    text-align: center;
+    margin: 2em;
+    font-size: 3em;
+}
+.myMission{
+    display: flex;
+    justify-content: center;
+}
+.myMission img{
+    width: 10em;
+}
+.myMission p{
+    margin-top: 1em;
+    margin-bottom: 0;  
+    text-align: justify;
+} 
+.singleBox{
+    width: 25%; 
+    margin:0 1em;
+    padding: 1em;
+    border-radius: 1em;
+    margin-bottom: 5em;
+}
+.missionBox{
+    background: rgb(248, 221, 221);;
+}
+.vissionBox{
+    background: rgb(244, 254, 255);
+}
+.goalBox{
+    background: rgb(254, 237, 255);
+}
+.myDevelop{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.myDevelopBox{
+    width: 50%;
+    /* padding: 8em; */
+    margin: 0;
+}
+.myDevelopBox p{
+    margin: 2em 0;
+}
+.myDevelop img{
+    width: 30%;
+    height: 25em;
+    padding: 2em;
+}
+.myDevelop h1{
+    font-size: 3em;
+}
+.circle1{
+    background-image: url(images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-size: 15em;
+    background-position:left; 
+}
+.circle2{
+    background-image: url(images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-size: 15em;
+    background-position:right;
+}
+.myBuild{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.myBuild img{
+    width: 30%;
+    height: 30%;
+    padding: 2em;
+}
+.build{
+    width: 50%;
+}
+.build h1{
+    font-size: 3em;
+}
+.build p{
+    margin: 2em 0;
+}
+footer{
+    background: rgb(6, 3, 17);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #fff;
+    text-align: center;
+    padding: 2em;
+}
+footer h1{
+    font-size: 3em;
+}
